@@ -1,0 +1,31 @@
+{
+    "isFilter": true,
+    "isLogoInHeader": false,
+    "isFooter": true,
+    "filters": [
+        {
+            "label": "State",
+            "field": "state",
+            "apiEndpoint": "/jobs/getFilter/state"
+        }
+    ],
+    "headers": {
+        "languages": [
+            {
+                "en": "English"
+            },
+            {
+                "hi": "हिंदी"
+            },
+            {
+                "ma": "मराठी"
+            }
+        ],
+        "menus": [
+            {
+                "label": "Status",
+                "navigateTo": "/status"
+            }
+        ]
+    }
+}

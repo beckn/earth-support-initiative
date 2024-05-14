@@ -1,0 +1,36 @@
+{
+    "list" : [
+        {
+            "title": "Model confidence levels:",
+            "options" : ["98%", "95%", "90%", "85%", "80%" ]
+        },
+        {
+            "title": "Flood prediction datapoints",
+            "options": [
+                "Annual Exceedance Probability (AEP)",
+                "Return periods"
+            ]
+        },
+        {
+            "title":"Spatial representation type",
+            "options":["Vector", "Raster"]
+        },
+        {
+            "title":"Spatial Coverage",
+            "options":["Balaganj", "Beanibazar", "Bishwanath"]
+        },
+        {
+            "title":"Spatial Resolutions",
+            "options":["10 m", "80 m", "1 km", "2.5 km"]
+        },
+        {
+            "title":"Temporal Coverage",
+            "options":["5 days", "10 days", "15 days", "30 days", "45 days"]
+        },
+        {
+            "title":"Temporal Resolutions",
+            "options":["12 hours", "1 days", "7 days", "15 days", "30 days"]
+        }
+    ]
+
+}
