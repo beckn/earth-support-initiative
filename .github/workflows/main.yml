@@ -67,7 +67,7 @@ jobs:
 
       - name: Deploy with rsync
         run: |
-           rsync -avz -e "ssh -i ~/.ssh/id_rsa" ./dist/ ${{ secrets.USERNAME }}@${{ secrets.HOST_DNS }}:/var/www/earth-support-initiative-bap.becknprotocol.io /public
+           rsync -avz -e "ssh -i ~/.ssh/id_rsa" ./dist/ ${{ secrets.USERNAME }}@${{ secrets.HOST_DNS }}:/var/www/earth-support-initiative-bap.becknprotocol.io/public
 
 
    
