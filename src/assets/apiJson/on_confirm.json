@@ -1,0 +1,317 @@
+{
+  "context": {
+    "domain": "dataset",
+    "location": {
+      "country": {
+        "code": "BT"
+      },
+      "city": {
+        "name": "Thimpu"
+      }
+    },
+    "action": "on_confirm",
+    "version": "1.1.0",
+    "bap_id": "dataset-bap-id",
+    "bap_uri": "https://55a6-124-123-32-28.ngrok-free.app",
+    "bpp_id": "dataset-bpp-subId",
+    "bpp_uri": "https://4e21-124-123-32-28.ngrok-free.app",
+    "message_id": "58d0a142-68e3-48d9-92e8-fbc791e44949",
+    "transaction_id": "8100d125-76a7-4588-88be-81b97657cd09",
+    "timestamp": "2023-11-06T10:14:10.295Z",
+    "ttl": "PT10M"
+  },
+  "message": {
+    "order": {
+      "id": "b989c9a9-f603-4d44-b38d-26fd72286b40",
+      "provider": {
+        "id": "2",
+        "descriptor": {
+          "name": "AccuWeather",
+          "additional_desc": {
+            "url" : "https://www.accuweather.com/",
+            "content_type" : "text/html"
+          },
+          "images": [
+            {
+              "url": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/04/accuweather-new-logo-hero.png"
+            }
+          ]
+        },
+        "rating": "4.9",
+        "locations": [
+          {
+            "id": "1",
+            "city": {
+              "name" : "sarpang"
+            }
+          },
+          {
+            "id": "2",
+            "city": {
+              "name" : "Thimphu"
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "1",
+          "descriptor": {
+            "images": [
+              {
+                "url": "https://www.analyticssteps.com/backend/media/thumbnail/6006173/6278986_1571298721_Weather_Forecoast_Graphics.jpg"
+              }
+            ],
+            "additional_desc" : {
+              "url" : "https://www.accuweather.com/weather-forecast-sample/downloadsample",
+              "content_type" : "text/html"
+            },
+            "name": "Weather Forecast Data",
+            "short_desc": "Access accurate and up-to-date weather forecasts for Sarpang, providing essential information on temperature, precipitation, wind speed, and more.",
+            "long_desc": "<p>Our <strong>Weather Forecast Data of Sarpang</strong> delivers reliable and timely forecasts tailored specifically for the region. Stay informed about current and future weather conditions, including temperature variations, precipitation levels, wind speed patterns, and more. Whether you're planning outdoor activities, agricultural operations, or travel itineraries, our comprehensive weather forecasts for Sarpang ensure that you're well-prepared for any weather-related situations. Trust our data to make informed decisions and optimize your plans, keeping you ahead of the weather and ready for whatever nature brings.</p>"
+          },
+          "time" : {
+            "range" : {
+              "start" : "2024-03-01T00:00:00.000Z",
+              "end" : "2024-03-31T00:00:00.000Z"
+            }
+          },
+          "category_ids": [
+            "c1"
+          ],
+          "fulfillment_ids": [
+            "f1"
+          ],
+          "price": {
+            "listed_value": "4.0",
+            "currency": "USD",
+            "value": "4.0"
+          },
+          "tags": [
+            {
+              "descriptor": {
+                "name": "Forecast confidence levels"
+              },
+              "list": [
+                {
+                  "value": "90%"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Weather datapoints"
+              },
+              "list": [
+                {
+                  "value": "Temperature"
+                },
+                {
+                  "value": "Horizontal wind velocity"
+                },
+                {
+                  "value": "Relative Humidity"
+                },
+                {
+                  "value": "Surface pressure"
+                },
+                {
+                  "value": "Precipitation"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Spatial representation type"
+              },
+              "list": [
+                {
+                  "value": "Raster"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Spatial Coverage"
+              },
+              "list": [
+                {
+                  "value": "Companiganj"
+                },
+                {
+                  "value": "Fenchuganj"
+                },
+                {
+                  "value": "Gowanighat"
+                },
+                {
+                  "value": "Jaintiapur"
+                },
+                {
+                  "value": "Kanaighat"
+                },
+                {
+                  "value": "Sylhetsardar"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Spatial Resolutions"
+              },
+              "list": [
+                {
+                  "value": "2.5 km"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Temporal Coverage"
+              },
+              "list": [
+                {
+                  "value": "Historical (1 year)"
+                },
+                {
+                  "value": "Forecast (15 days)"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Forecast Temporal Resolutions"
+              },
+              "list": [
+                {
+                  "value": "7 days"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Data formats"
+              },
+              "list": [
+                {
+                  "value": "WaterML"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "name": "Subscription duration"
+              },
+              "list": [
+                {
+                  "value": "One time"
+                }
+              ]
+            }
+          ]
+          
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "f1",
+          "state": {
+            "descriptor" : {
+              "code" : "ORDER CONFIRMED",
+              "name" : "Your Order is confirmed"
+            },
+            "updated_at" : "2023-11-06T10:14:10.295Z"
+          },
+          "customer": {
+            "person": {
+              "name": "Tenzin Dorji"
+            },
+            "contact": {
+              "email": "tenzin.dorji@skyanalytics.bt"
+            }
+          },
+          "stops" : [
+            {
+              "type" : "CLOUD",
+              "instructions": {
+                "short_desc" : "Data set will be available post Order Confirmation"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "name": "Terms of order"
+              },
+              "list": [
+                {
+                  "value": "https://www.accuweather.com/data/termsandcondition"
+                }
+              ]
+            }
+          ]
+
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "USD",
+          "value": "4.5"
+        },
+        "breakup": [
+          {
+            "title": "dataset-fee",
+            "price": {
+              "currency": "USD",
+              "value": "4.0"
+            }
+          },
+          {
+            "title": "taxes",
+            "price": {
+              "currency": "INR",
+              "value": "0.5"
+            }
+          }
+        ]
+      },
+      "billing": {
+        "name": "Tenzin Dorji",
+        "organization" : {
+          "descriptor": {
+            "name" : "Sky Analytics Bhutan Pvt. Ltd."
+          },
+          "address" : "45 Cloud Avenue, Thimphu, Bhutan",
+          "city" : {
+            "name" : "Thimphu"
+          }
+        },
+        "phone" : "+9752345678",
+        "email" : "tenzin.dorji@skyanalytics.bt" 
+      },
+      "payments": [
+        {
+          "status": "PAID",
+          "type": "PRE-FULFILLMENT",
+          "params": {
+            "transaction_id": "raz816863816313",
+            "amount": "4.50",
+            "currency": "USD",
+            "bank_code": "INB0004321",
+            "bank_account_number": "1234002341"
+          }
+        }
+      ],
+      "cancellation_terms": [
+        {
+          "cancellation_fee": {
+            "amount": {
+              "currency": "USD",
+              "value": "4.50"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
