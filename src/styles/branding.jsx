@@ -114,3 +114,7 @@ export const buttonCss = {
   primaryBtnHoverColor: '#3a6b2e',
   primaryTxtColor: '#FFF'
 }
+
+export const linkColor = {
+  termsAndConditionColor : 'rgba(28, 121, 111, 1)' 
+}

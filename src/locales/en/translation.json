@@ -67,5 +67,6 @@
     "Delay_in_fetching_the_details": "Sorry, there is a delay in processing the request, Please try again now.",
     "ENTER_MANDATORY_OPTION_PROCEED":"Enter the mandatory options to proceed",
     "SEARCH_CLIMATE_RESILIENCE":"Searching Climate Resilience Data Highways using Beckn Protocol",
-    "I_ACCEPT_THE_TERMS_OF_USE" : "I Accept The Terms Of Use"
+    "I_ACCEPT_THE" : "I Accept The",
+    "TERMS_AND_CONDITIONS" : "Terms and Conditions"
 }
