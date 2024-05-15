@@ -388,9 +388,9 @@ const Details = () => {
                 >
                   {t("PROCEED")}
                 </Button>
-                <Text fontSize={12} ml={4}>
+                {/* <Text fontSize={12} ml={4}>
                   {t("PRICE_WILL_VARY")}
-                </Text>
+                </Text> */}
               </HStack>
             </Card>
           </Card>

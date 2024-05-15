@@ -22,18 +22,18 @@
 
 
 .checkedRadioButton {
-    background-color: #00B088; /* Set your desired background color */
+    background-color: rgba(76, 129, 63, 1); /* Set your desired background color */
   }
 
   .css-vtg3j9[data-checked] {
-    background: #00B088 !important;
-    border-color:  #00B088;
+    background: rgba(76, 129, 63, 1) !important;
+    border-color:  rgba(76, 129, 63, 1);
     color: var(--chakra-colors-white);
 }
 
 .css-1ydjfm6[data-checked]{
-  background: #00B088 !important; 
-  border-color:  #00B088;
+  background: rgba(76, 129, 63, 1) !important; 
+  border-color:  rgba(76, 129, 63, 1);
 }
 
 .Toastify__toast-container--bottom-center {

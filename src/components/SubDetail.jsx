@@ -321,8 +321,16 @@ const SubDetail = () => {
             isChecked={isTermsAccepted}
             onChange={handleTermsChange} // Update the terms change handler
           >
-            <Text fontSize={12}>
-              {t("I_ACCEPT_THE_TERMS_OF_USE")}
+             <Text fontSize={12} fontWeight={600}>
+              {t("I_ACCEPT_THE")}{" "}
+              <span
+                style={{
+                  color: linkColor.termsAndConditionColor,
+                  textDecoration: `underline ${linkColor.termsAndConditionColor}`,
+                }}
+              >
+                {t("TERMS_AND_CONDITIONS")}
+              </span>
             </Text>
           </Checkbox>
         </Box>
