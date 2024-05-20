@@ -21,7 +21,7 @@ import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import dataList from "../assets/apiJson/checkoutForm.json";
 import { useNavigate } from "react-router-dom";
-import { header, buttonCss } from "../styles/branding";
+import { linkColor } from "../styles/branding";
 
 const SubDetail = () => {
   const { t } = useTranslation();
