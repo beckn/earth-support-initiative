@@ -70,7 +70,7 @@ const SuccessPayment = (item, items) => {
         <Text fontSize={16} color="#353945" fontWeight={400}> {t('SENT_YOUR_DATA_REPORT')} </Text>
        
         <HStack>
-          <Text fontSize={16} color="#23262F" fontWeight={400}> {dataShareVia} {subType}:</Text>
+          <Text fontSize={16} color="#23262F" fontWeight={400}> {}{dataShareVia} {subType}:</Text>
           <Text fontSize={16} color="#353945" fontWeight={400}>{displayValue}</Text>
         </HStack>
 
